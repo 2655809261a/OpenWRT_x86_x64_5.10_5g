@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-x64-6.x-精简版
+name: x86-x64-5.x-精简版
 
 on:
   repository_dispatch:
@@ -17,8 +17,8 @@ on:
   #   types: started
 
 env:
-  REPO_URL: https://github.com/DHDAXCW/lede-rockchip
-  REPO_BRANCH: stable
+  REPO_URL: https://github.com/2655809261a/lede-rockchip
+  REPO_BRANCH: patch
   CONFIG_FILE: configs/lean/simplify.config
   DIY_SH: scripts/simplify.sh
   KMODS_IN_FIRMWARE: true
