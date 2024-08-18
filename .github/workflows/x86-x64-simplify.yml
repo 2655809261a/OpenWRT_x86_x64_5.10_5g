@@ -18,7 +18,7 @@ on:
 
 env:
   REPO_URL: https://github.com/2655809261a/lede-rockchip
-  REPO_BRANCH: patch
+  REPO_BRANCH: 5.4
   CONFIG_FILE: configs/lean/simplify.config
   DIY_SH: scripts/simplify.sh
   KMODS_IN_FIRMWARE: true
